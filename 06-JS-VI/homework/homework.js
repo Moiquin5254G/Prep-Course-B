@@ -48,16 +48,14 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  const newArr = array.map((total => cb(total))) 
-  return newArr;
+  const newArr = array.map((total => cb(total))); return newArr;
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
-  var filtrados = array.filter((e) => e[0] === 'a');
-  return filtrados; 
+  var filtrados = array.filter((e) => e[0] === 'a'); return filtrados; 
 }
 
 // No modificar nada debajo de esta línea
