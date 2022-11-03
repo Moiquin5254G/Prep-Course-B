@@ -9,7 +9,7 @@ function mayuscula(nombre) {
   return nombre[0].toUpperCase() + name.join('');
 }
 
-function invocarCallback(cb) {
+function invocarCallback(cb) {  
   // Invoca al callback `cb`
   //Tu código:
   cb();
